@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portfolio Bootstrap v1</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+  <header>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="#">
+        <img src="img/logo.png" class="img-fluid">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02"
+              aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarColor02">
+        <ul class="navbar-nav mr-auto px-3">
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#comp">Compétences</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#apropos">A propos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projet">Votre projet</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <form class="form-inline px-3">
+          <input class="form-control form-control-sm mr-3 w-75" type="text" placeholder="Rechercher"
+                 aria-label="Search">
+          <i class="fas fa-search" style="color:black" aria-hidden="true"></i>
+        </form>
+      </div>
+    </nav>
+    <!-- /Navbar -->
+
+    <!-- Accroche -->
+    <div class="container-header d-flex flex-column justify-content-center align-items-center text-center">
+      <h1>CREATION DE SITES WEB</h1>
+      <br>
+      <h2>Site vitrine, e-commerce, évènementiel</h2>
+      <br>
+      <button type="button" class="btn btn-outline-info">En savoir plus</button>
+    </div>
+    <!-- /Accroche -->
+
+  </header>
+
+  <main>
+
+    <!-- Services -->
+    <section><a id="services"></a>
+      <div class="container-services d-flex flex-column justify-content-center align-items-center text-center">
+        <h1>MES SERVICES</h1>
+        <h2>Des prestations adaptées à vos besoins</h2>
+        <br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam culpa, dolorem doloribus eius eligendi iste iure laborum magnam perferendis recusandae. At necessitatibus, quisquam. Et fugiat inventore laudantium modi nisi, quisquam?
+        </p>
+        <br>
+        <button type="button" class="btn btn-outline-info">Et que fais-je ?</button>
+      </div>
+    </section>
+    <!-- /Services -->
+
+    <!-- Compétences -->
+    <section>
+      <div id="comp"></div>
+        <div class="container-fluid competences text-center">
+          <h1>MES COMPETENCES</h1>
+          <h2>Des compétences à votre service</h2>
+          <br>
+          <div class="row icons">
+            <div class="col-12 col-lg-3">
+              <span style="font-size: 3em; color: black;">
+                <i class="fas fa-gem"></i>
+              </span>
+              <h2>Design</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque eaque esse, magni minus praesentium recusandae.</p>
+            </div>
+            <div class="col-12 col-lg-3">
+              <span style="font-size: 3em; color: black;">
+                <i class="fas fa-desktop"></i>
+              </span>
+              <h2>Bootstrap</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae impedit ipsam obcaecati perspiciatis rerum tempora?</p>
+            </div>
+            <div class="col-12 col-lg-3">
+              <span style="font-size: 3em; color: black;">
+                <i class="fas fa-globe"></i>
+              </span>
+              <h2>Web</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci architecto, cumque officiis saepe tenetur voluptatum.</p>
+            </div>
+            <div class="col-12 col-lg-3">
+              <span style="font-size: 3em; color: black;">
+                <i class="fas fa-heart"></i>
+              </span>
+              <h2>Angular</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque cum libero nihil nobis officiis vitae.</p>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- /Compétences -->
+
+    <div class="parallax">
+    </div>
+
+    <!-- Portfolio -->
+    <section><a id="portfolio"></a>
+      <div class="container-fluid portfolio gallery text-center">
+        <h1>PORTFOLIO</h1>
+        <h2>Les projets sur lesquels j'ai travaillé</h2>
+        <br>
+        <br>
+        <div class="row gallery zoom-out">
+          <div class="col-lg-4">
+            <a href="img/portfolio/fullsize/1.jpg" class="thumbnail">
+              <img src="img/portfolio/thumbnails/1.jpg" alt="Image 1" class="img-fluid"/>
+            </a>
+          </div>
+          <div class="col-lg-4">
+            <a href="img/portfolio/fullsize/2.jpg" class="thumbnail">
+              <img src="img/portfolio/thumbnails/2.jpg" alt="Image 1" class="img-fluid"/>
+            </a>
+          </div>
+          <div class="col-lg-4">
+            <a href="img/portfolio/fullsize/3.jpg" class="thumbnail">
+              <img src="img/portfolio/thumbnails/3.jpg" alt="Image 1" class="img-fluid"/>
+            </a>
+          </div>
+          <div class="col-lg-4">
+            <a href="img/portfolio/fullsize/4.jpg" class="thumbnail">
+              <img src="img/portfolio/thumbnails/4.jpg" alt="Image 1" class="img-fluid"/>
+            </a>
+          </div>
+          <div class="col-lg-4">
+            <a href="img/portfolio/fullsize/5.jpg" class="thumbnail">
+              <img src="img/portfolio/thumbnails/5.jpg" alt="Image 1" class="img-fluid"/>
+            </a>
+          </div>
+          <div class="col-lg-4">
+            <a href="img/portfolio/fullsize/6.jpg" class="thumbnail">
+              <img src="img/portfolio/thumbnails/6.jpg" alt="Image 1" class="img-fluid"/>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Portfolio -->
+
+    <div class="parallax2">
+    </div>
+
+    <!-- A propos -->
+    <section><a id="apropos"></a>
+        <div class="container-aPropos text-center">
+          <h1>FLORIAN VIDAL</h1>
+          <h2>Je suis développeur web/applications</h2>
+          <br>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam culpa, dolorem doloribus eius eligendi iste iure laborum magnam perferendis recusandae. At necessitatibus, quisquam. Et fugiat inventore laudantium modi nisi, quisquam?
+          </p>
+        </div>
+        </div>
+    </section>
+
+    <section>
+      <div class="container-cv d-flex flex-column justify-content-center align-items-center text-center">
+        <h1>Voulez-vous télécharger mon CV ?</h1>
+        <br>
+        <button type="button" class="btn btn-outline-info">Télécharger mon CV en PDF</button>
+      </div>
+
+    </section>
+    <!-- A propos -->
+
+    <!-- Votre Projet -->
+    <section><a id="projet"></a>
+        <div class="container-Contact d-flex justify-content-center align-items-center py-5 p-0">
+          <div class="cv text-center">
+            <h2 class="h2Contact">Commençons à travailler ensemble !</h2><br>
+            <p>Vous êtes prêts à commencer un projet avec moi ?
+          </div>
+        </div>
+    </section>
+    <!-- /Votre Projet -->
+
+    <!-- Timeline -->
+    <div class="timeline">
+      <div class="container left">
+        <div class="content">
+          <h2>2017</h2>
+          <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+        </div>
+      </div>
+      <div class="container right">
+        <div class="content">
+          <h2>2016</h2>
+          <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+        </div>
+      </div>
+      <div class="container left">
+        <div class="content">
+          <h2>2015</h2>
+          <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+        </div>
+      </div>
+      <div class="container right">
+        <div class="content">
+          <h2>2012</h2>
+          <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+        </div>
+      </div>
+      <div class="container left">
+        <div class="content">
+          <h2>2011</h2>
+          <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+        </div>
+      </div>
+      <div class="container right">
+        <div class="content">
+          <h2>2007</h2>
+          <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+        </div>
+      </div>
+    </div>
+    <!-- /Timeline -->
+
+    <!-- Contact -->
+    <div class="container-tel"><a id="contact"></a>
+    <h2 class="text-center">Contactez-moi dès que possible</h2>
+      <br>
+      <div class="row justify-content-center align-items-center text-center rowContact">
+        <div class="col-5 col-lg-3">
+            <span style="font-size: 3em; color: #343a40;">
+              <i class="fas fa-phone"></i>
+            </span>
+          <p class="black">0666280026</p>
+        </div>
+        <div class="col-5 col-lg-3">
+            <span style="font-size: 3em; color: #343a40;">
+              <i class="fas fa-envelope"></i>
+            </span>
+          <p class="mail">florian.vidal@lapiscine.pro</p>
+        </div>
+      </div>
+    </div>
+    <!-- /Contact -->
+  </main>
+
+  <footer>
+    <div class="container-fluid footer mt-5 text-center">
+      <em>Copyright - 2019 Florian Vidal</em>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
